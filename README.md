@@ -74,7 +74,7 @@
            <img width="684" alt="image" src="https://github.com/mySongminkyu/RNN/assets/132251519/3704395d-9d32-43ed-a6a5-8896ef920ddc">
 
           이는 역전파를 통해 기울기/미분값을 구하는 과정인데 $h_row$ 를 $w_h$로 미분하는 것이다.
-          RNN의 특성상 전의 hidden state를 계속 반영하며 연산이 진행되는데 이처럼 미분이 계속 진행되다 보면 기울기가 감소하는 문제가 생긴다.
+          RNN의 특성상 전의 hidden state를 계속 반영하며 연산이 진행되는데 이처럼 미분이 계속 진행되다 보면 출력층에서 멀어질수록 기울기가 감소하는 문제가 생긴다.
 
           이를 gradient vanishing이라 하며, 추후에 LSTM이 이를 보완했다.
 
