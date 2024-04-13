@@ -1,6 +1,5 @@
 # RNN
 
-  <img width="640" alt="image" src="https://github.com/mySongminkyu/RNN/assets/132251519/d00fa352-9468-499e-a3a0-4536103352bf">
 
 - Recuurent Neural Network는 hidden layer에서 나온 결과 값이 다시 hidden layer로 들어가 새로운 input 값과 연산을 수행하는 순환구조이다.
   FC layer, CNN은 hidden layer에서 나온 결과 값이 output layer 방향으로 이동하지만, RNN은 출력층 방향으로 보내면서도 hidden layer node로 다시 들어가 순환한다는 점에서 차이가 있다.
